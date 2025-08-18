@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Crawler</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Book Crawler from toscrape.com</h1>
+
+        <form method="POST" action="/crawl" class="crawl-form">
+            <button type="submit" class="btn-primary">Start Crawling</button>
+        </form>
+
+        {% if results %}
+            <div class="results">
+                <h2>Results:</h2>
+                {% if results is string %}
+                    <pre>{{ results }}</pre>  <!-- error message or raw text -->
+                {% else %}
+                    <ul class="results-list">
+                        {% for item in results %}
+    <li>
+        <strong>{{ item.title or 'N/A' }}</strong> -
+        {{ item.price or 'N/A' }} -
+        {{ item.availability or 'N/A' }}
+    </li>
+{% endfor %}
+
+                    </ul>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

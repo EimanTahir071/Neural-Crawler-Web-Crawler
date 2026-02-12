@@ -1,7 +1,7 @@
 # 🕷️ Neural Crawler - Web Crawler
 
 <p align="center">
-  <img src="/images/crawler-2.jpg" alt="Neural Crawler Banner" style="width:100%; height:auto;" />
+  <img src="/images/crawler3.png" alt="Neural Crawler Banner" style="width:100%; height:auto;" />
 </p>
 
 <p align="center">
@@ -32,6 +32,10 @@ The default configuration targets [Books to Scrape](http://books.toscrape.com/),
 - 🤖 **Robots.txt Compliant** - Respects website crawling policies
 - ⏱️ **Timeout Protection** - Built-in safeguards against runaway crawls
 - 🎯 **Page Limit Control** - Configurable page count limits
+
+  <p align="center">
+  <img src="/images/crawler-2.jpg" alt="Neural Crawler Banner" style="width:100%; height:auto;" />
+</p>
 
 ## 🛠️ Tech Stack
 

@@ -1,8 +1,8 @@
 # 🕷️ Neural Crawler - Web Crawler
-
 <p align="center">
   <img src="/images/crawler3.png" alt="Neural Crawler Banner" style="width:100%; height:auto;" />
 </p>
+
 
 <p align="center">
   <strong>A powerful, Flask-powered web crawler built with Scrapy for efficient data extraction</strong>
